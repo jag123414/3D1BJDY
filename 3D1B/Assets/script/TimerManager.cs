@@ -35,7 +35,7 @@ public class TimerManager : MonoBehaviour
         int seconds = Mathf.FloorToInt(timeLimit % 60);
 
         timeText.text =
-            $"남은 시간 : {minutes:00}:{seconds:00}";
+            $"Time : {minutes:00}:{seconds:00}";
     }
 
     public void RestartGame()

@@ -98,7 +98,7 @@ public class PlayerController : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         // ★ 고친 부분: 유니티 에디터 태그 규칙에 맞게 소문자 coin을 대문자 Coin으로 변경했습니다.
-        if (other.CompareTag("Coin"))
+        if (other.CompareTag("coin"))
         {
             // 코인 오브젝트를 삭제 (또는 점수 획득 로직을 여기에 연동 가능)
             Destroy(other.gameObject);

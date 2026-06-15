@@ -7,6 +7,7 @@ TagManager:
   - Ground
   - MovingPlatform
   - Untagged1
+  - coin
   layers:
   - Default
   - TransparentFX
